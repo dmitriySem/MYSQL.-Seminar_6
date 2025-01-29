@@ -119,7 +119,3 @@ AFTER INSERT ON messages FOR EACH ROW
     INSERT INTO logs SET table_name = 'messages' , pk_id = NEW.id;
 
 ```
-
-
-
-*Подготовил студент Geek Brains* [**`Терехов Александр`**](https://gb.ru/users/7696463), SQL_Seminar_6
